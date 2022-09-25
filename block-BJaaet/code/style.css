@@ -1,0 +1,25 @@
+.btn{
+    color: tomato;
+    border: 0px;
+    background-color: transparent;
+}
+body{
+    background-color: orange;
+}
+.block{
+    background-color: purple;
+}
+.center{
+    margin: auto;
+  width: fit-content;
+  border: 3px solid #73AD21;
+  padding:20px 10px;
+}
+.input-control>input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.none{
+    display: none;
+}
