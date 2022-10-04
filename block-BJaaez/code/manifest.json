@@ -1,0 +1,9 @@
+{
+    "name":"Todo_extension",
+    "description":"Type down your daily todo list and save the info in your local storage",
+    "version":"1.0.0",
+    "manifest_version":2,
+    "chrome_url_overrides":{
+        "newtab":"test.html"
+    }
+}
