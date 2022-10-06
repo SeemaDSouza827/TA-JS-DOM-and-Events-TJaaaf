@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(192, 221, 224);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.block{
+    width: 60%;
+    padding: 10px;
+}
+.center{
+    margin: 50px auto;
+}
+input::placeholder{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+input[type="search"]{
+    border-radius: 5px;
+    font-size: 25px;
+    height: 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+input[type="checkbox"]{
+    transform: scale(2.5);
+    margin:  auto 20px;
+    
+}
+.display-box{
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 50px;
+    border: 2px groove red;
+}
+.complete{
+    border: 2px groove greenyellow;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-size: 30px;
+}
+.display-box>span{
+    color: whitesmoke;
+    margin-right: 5px;
+}
+.display-box:hover>span{
+    margin-right: 5px;
+    color: red;
+}
+.display-box>h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.lineThrough{
+    text-decoration: line-through 2px black;
+}
